@@ -1,10 +1,10 @@
-.aboutComp-section {
+.aboutCompSection {
   width: 100%;
   padding: 70px 24px;
   background-color: #ffffff;
 }
 
-.aboutComp-container {
+.aboutCompContainer {
   max-width: 1140px;
   margin: 0 auto;
   display: flex;
@@ -12,19 +12,19 @@
   gap: 50px;
 }
 
-.aboutComp-image-col {
+.aboutCompImageCol {
   flex: 1;
   max-width: 540px;
 }
 
-.aboutComp-image {
+.aboutCompImage {
   width: 100%;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   object-fit: cover;
 }
 
-.aboutComp-content-col {
+.aboutCompContentCol {
   flex: 1;
   max-width: 540px;
   display: flex;
@@ -32,7 +32,7 @@
   gap: 16px;
 }
 
-.aboutComp-subtitle {
+.aboutCompSubtitle {
   color: #ff6a1a;
   font-size: 11px;
   font-weight: 800;
@@ -40,7 +40,7 @@
   text-transform: uppercase;
 }
 
-.aboutComp-title {
+.aboutCompTitle {
   font-size: 32px;
   font-weight: 800;
   color: #111827;
@@ -49,7 +49,7 @@
   letter-spacing: -0.5px;
 }
 
-.aboutComp-paragraph {
+.aboutCompParagraph {
   color: #6b7280;
   font-size: 13.5px;
   line-height: 1.65;
@@ -58,17 +58,17 @@
 }
 
 @media (max-width: 868px) {
-  .aboutComp-container {
+  .aboutCompContainer {
     flex-direction: column;
     gap: 32px;
   }
 
-  .aboutComp-image-col,
-  .aboutComp-content-col {
+  .aboutCompImageCol,
+  .aboutCompContentCol {
     max-width: 100%;
   }
 
-  .aboutComp-title {
+  .aboutCompTitle {
     font-size: 26px;
   }
 }

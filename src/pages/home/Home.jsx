@@ -66,7 +66,7 @@ const Home = () => {
         description="Expertos en los barrios universitarios de Madrid, listos para encontrar la habitación perfecta para ti."
       />
 
-      <div className="agents-wrapper">
+      <div className="agentsWrapper">
         <AgentsComp name="William Hernández" country="Alicante" image="Willian" />
         <AgentsComp name="Willfredy Salcedo" country="Sevilla" image="Willfredy" />
         <AgentsComp name="Beatriz Iñiguez" country="Granada" image="Beatriz" />

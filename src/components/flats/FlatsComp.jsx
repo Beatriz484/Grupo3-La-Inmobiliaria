@@ -4,7 +4,7 @@ const images = import.meta.glob('../../assets/img/*.png', { eager: true, import:
 
 function FlatsComp(props) {
   return (
-    <article className="Flats">
+    <article className="flatCard">
       <div className="flatImageWrapper">
         <img
           className="flatImage"
@@ -14,7 +14,7 @@ function FlatsComp(props) {
         <p className="flatPrice">
           €{props.price}<span>/mes</span>
         </p>
-        <p className={`flatAvailability ${props.available ? 'is-available' : 'is-unavailable'}`}>
+        <p className={`flatAvailability ${props.available ? 'isAvailable' : 'isUnavailable'}`}>
           {props.available ? 'Disponible' : 'Últimas plazas'}
         </p>
       </div>

@@ -50,7 +50,7 @@
   flex-wrap: wrap;
 }
 
-.agents-wrapper {
+.agentsWrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

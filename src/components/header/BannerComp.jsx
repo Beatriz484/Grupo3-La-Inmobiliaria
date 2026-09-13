@@ -3,21 +3,21 @@ import './BannerComp.css';
 function BannerComp() {
   return (
     <section className="banner">
-      <div className="banner-content">
-        <span className="banner-badge">
+      <div className="bannerContent">
+        <span className="bannerBadge">
           PISOS COMPARTIDOS PARA ESTUDIANTES EN MADRID
         </span>
 
-        <h1 className="banner-title">
+        <h1 className="bannerTitle">
           Encuentra tu nuevo hogar{' '}
-          <span className="banner-title-highlight">
+          <span className="bannerTitleHighlight">
             universitario en Madrid.
           </span>
         </h1>
 
-        <div className="banner-search">
+        <div className="bannerSearch">
           <svg
-            className="banner-search-icon"
+            className="bannerSearchIcon"
             width="18"
             height="18"
             viewBox="0 0 24 24"
@@ -33,9 +33,9 @@ function BannerComp() {
           <input
             type="text"
             placeholder="Encuentra tu habitación compartida en Madrid (Barrio/Universidad)"
-            className="banner-search-input"
+            className="bannerSearchInput"
           />
-          <button className="banner-search-button">Buscar</button>
+          <button className="bannerSearchButton">Buscar</button>
         </div>
       </div>
     </section>

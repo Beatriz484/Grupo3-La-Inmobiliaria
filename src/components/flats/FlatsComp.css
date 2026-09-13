@@ -1,4 +1,4 @@
-.Flats {
+.flatCard {
   width: 100%;
   max-width: 340px;
   background: #ffffff;
@@ -11,7 +11,7 @@
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.Flats:hover {
+.flatCard:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
 }
@@ -64,7 +64,7 @@
   font-size: 11px;
 }
 
-.flatAvailability.is-unavailable {
+.flatAvailability.isUnavailable {
   background: #fff4ed;
   color: #ff6a1a;
   border-color: #ffd6c0;
